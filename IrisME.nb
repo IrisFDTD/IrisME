@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     99647,       2031]
-NotebookOptionsPosition[     99025,       2006]
-NotebookOutlinePosition[     99430,       2023]
-CellTagsIndexPosition[     99387,       2020]
+NotebookDataLength[    100363,       2046]
+NotebookOptionsPosition[     99741,       2021]
+NotebookOutlinePosition[    100146,       2038]
+CellTagsIndexPosition[    100103,       2035]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,8 +25,8 @@ Cell[TextData[{
  "\n\nThis file is part of IrisME a ",
  StyleBox["Mathematica",
   FontSlant->"Italic"],
- " (R) program for the calculation of scattering coefficients in Perfect \
-Electric Conductor rectangular hole arrays. IrisME is based on the Modal \
+ " (C) script for the calculation of scattering coefficients in arrays of \
+rectangular holes perforating a metal film. IrisME is based on the Modal \
 Expansion of the electromagnetic fields  (also called Coupled Mode Method). A \
 brief description of the method can be found in the Appendix from S.G. \
 Rodrigo, \[OpenCurlyDoubleQuote]Terahertz gas sensor based on \
@@ -40,13 +40,16 @@ absorption-induced transparency\[CloseCurlyDoubleQuote],\n> EPJ Applied \
 Metamaterials 3, 11 (2016)\n\nThe paper can be found at",
  ButtonBox[" \
 https://epjam.edp-open.org/articles/epjam/full_html/2016/01/epjam160014/\
-epjam160014.html",
+epjam160014.html\n",
   BaseStyle->"Hyperlink",
   ButtonData->{
    " https://epjam.edp-open.org/articles/epjam/full_html/2016/01/epjam160014/\
 epjam160014.html", None}],
- "\n\nCommercial applications may also acquire a commercial license. Please \
-contact <sergut@unizar.es> for details.      \n\n\
+ "\nImportant: This program is free to use. However, if you are using, or \
+plan to use it, specially if it is for research or academic purposes, please \
+send an email with your name, institution and a brief description of your \
+interest for this program. Commercial applications may also acquire a \
+commercial license. Please contact <sergut@unizar.es> for details.      \n\n\
 ------------------------------------------------------------------------------\
 ------------------------\nCopyright (C) 2019 Sergio G Rodrigo \
 <sergut@unizar.es>   \n\n- IrisME is free software: you can redistribute it \
@@ -85,7 +88,9 @@ IrisME implementation is based on Wolfram ",
    3.782105428597142*^9, 3.782105448253267*^9}, {3.7821054823072147`*^9, 
    3.782105499047172*^9}, {3.7821055353822503`*^9, 3.782105536114292*^9}, {
    3.7821055696422095`*^9, 3.7821056734031444`*^9}, {3.782136871482524*^9, 
-   3.782136871482524*^9}, {3.782645810494046*^9, 3.7826458123061495`*^9}},
+   3.782136871482524*^9}, {3.782645810494046*^9, 3.7826458123061495`*^9}, {
+   3.7827325748082113`*^9, 3.7827325754072456`*^9}, {3.7827364846118393`*^9, 
+   3.782736531170502*^9}, {3.782736576141074*^9, 3.7827366141342473`*^9}},
  Background->GrayLevel[0.85],
  ExpressionUUID -> "2f1aed88-510b-4392-a567-0633c7ac4eb1"],
 
@@ -327,8 +332,8 @@ Cell[BoxData[
      RowBox[{"line5", "[", 
       RowBox[{"[", "3", "]"}], "]"}]}]}], 
    RowBox[{"(*", 
-    RowBox[{"number", " ", "of", " ", "wavelengths"}], "*)"}], 
-   "\[IndentingNewLine]", "\n", 
+    RowBox[{"number", " ", "of", " ", "wavelengths"}], "*)"}], "\n", 
+   "\[IndentingNewLine]", 
    RowBox[{"Close", "[", "strm", "]"}], " ", "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
@@ -721,7 +726,7 @@ Cell[BoxData[
      RowBox[{"Main", " ", 
       RowBox[{"text", ":", " ", 
        RowBox[{
-        RowBox[{"Green", "'"}], "s", " ", "function"}]}]}], " ", "*)"}],
+        RowBox[{"Green", "'"}], "s", " ", "functions"}]}]}], " ", "*)"}],
     FontColor->GrayLevel[0],
     Background->RGBColor[0.87, 0.94, 1]], 
    StyleBox["\[IndentingNewLine]",
@@ -1110,9 +1115,7 @@ Cell[BoxData[
      SuperscriptBox[
       RowBox[{"Abs", "[", 
        RowBox[{"Ep", "[", "\[Lambda]", "]"}], "]"}], "2"]}]}], " ", 
-   StyleBox["\[IndentingNewLine]",
-    FontColor->GrayLevel[0],
-    Background->RGBColor[0.87, 0.94, 1]], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{
@@ -1129,16 +1132,19 @@ Cell[BoxData[
         RowBox[{"p", "-", 
          RowBox[{"pol", " ", "thus", " ", "Yko"}]}]}]}]}], ",", 
      RowBox[{"so", "=", 
-      SqrtBox["\[Epsilon]I"]}]}], "*)"}], "\[IndentingNewLine]", 
+      SqrtBox["\[Epsilon]I"]}]}], "*)"}], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->GrayLevel[0],
+    Background->RGBColor[0.87, 0.94, 1]], 
    RowBox[{"(*", 
     RowBox[{
      RowBox[{"Note", " ", "that", " ", "because", " ", "G_paper"}], "=", 
      RowBox[{"iG", " ", "here", " ", "it", " ", "appears", " ", "Re", 
       RowBox[{"(", "GIII", ")"}], " ", "instead", " ", "of", " ", "Im", 
-      RowBox[{"(", "GIII", ")"}]}]}], " ", "*)"}], 
+      RowBox[{"(", "GIII", ")"}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    StyleBox["\[IndentingNewLine]",
     FontColor->GrayLevel[0],
-    Background->RGBColor[0.87, 0.94, 1]], "\[IndentingNewLine]", " ", 
+    Background->RGBColor[0.87, 0.94, 1]], " ", 
    StyleBox[
     RowBox[{"(*", 
      RowBox[{
@@ -1977,31 +1983,40 @@ Cell[BoxData[
    3.782569075140726*^9, 3.782569086386369*^9}, {3.7825691246255565`*^9, 
    3.7825691575514393`*^9}, {3.782569289017959*^9, 3.7825692908570642`*^9}, {
    3.782625955910429*^9, 3.7826259639598894`*^9}, {3.7826261344456406`*^9, 
-   3.7826261504185543`*^9}, {3.782626592730853*^9, 3.782626621978526*^9}},
+   3.7826261504185543`*^9}, {3.782626592730853*^9, 3.782626621978526*^9}, 
+   3.782736734017104*^9},
  EmphasizeSyntaxErrors->True,
  ExpressionUUID -> "4a1c0d43-6968-4cab-8ae6-c058bbbe8264"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\sergut\\\\Google \
 Drive\\\\Public_codes_GD\\\\IrisME\"\>"], "Output",
  CellChangeTimes->{3.782626750104854*^9, 3.782632575872069*^9, 
-  3.7826458155923376`*^9, 3.7826464850386276`*^9}],
+  3.7826458155923376`*^9, 3.7826464850386276`*^9, 3.78272134419917*^9, 
+  3.7827367724473023`*^9},
+ ExpressionUUID -> "f1d379e7-2ac3-497e-9129-aa55b2d8d093"],
 
 Cell[BoxData["\<\"input_IrisME.dat\"\>"], "Output",
  CellChangeTimes->{3.782626750104854*^9, 3.782632575872069*^9, 
-  3.7826458155923376`*^9, 3.7826464850456285`*^9}]
+  3.7826458155923376`*^9, 3.7826464850386276`*^9, 3.78272134419917*^9, 
+  3.7827367724553027`*^9},
+ ExpressionUUID -> "f1d379e7-2ac3-497e-9129-aa55b2d8d093"]
 }, Open  ]],
 
 Cell[BoxData["\"\<C:\\\\Users\\\\sergut\\\\Google \
 Drive\\\\Public_codes_GD\\\\IrisME\>\""], "Input",
- CellChangeTimes->{3.782052508968713*^9}],
+ CellChangeTimes->{
+  3.782052508968713*^9},ExpressionUUID->"3587c0d9-ed8f-4e08-bbc8-\
+0d75ebc06f2d"],
 
 Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.6616698490323873`*^9, 3.661669849047987*^9}},
- ExpressionUUID -> "4a67d2ee-07dd-46e0-9210-fda0d1f1a9ef"],
+ CellChangeTimes->{{3.6616698490323873`*^9, 
+  3.661669849047987*^9}},ExpressionUUID->"4a67d2ee-07dd-46e0-9210-\
+fda0d1f1a9ef"],
 
 Cell[BoxData[""], "Input",
- CellChangeTimes->{3.7814514536955633`*^9},
- ExpressionUUID -> "65e209b5-8066-412c-96f2-aaf41c183dd4"]
+ CellChangeTimes->{
+  3.7814514536955633`*^9},ExpressionUUID->"65e209b5-8066-412c-96f2-\
+aaf41c183dd4"]
 }, Open  ]]
 },
 WindowSize->{1264, 889},
@@ -2023,15 +2038,15 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 4135, 67, 603, "Subsubtitle"],
+Cell[579, 22, 4544, 72, 641, "Subsubtitle"],
 Cell[CellGroupData[{
-Cell[4739, 93, 93433, 1888, 3040, "Input"],
-Cell[98175, 1983, 218, 3, 30, "Output"],
-Cell[98396, 1988, 166, 2, 30, "Output"]
+Cell[5148, 98, 93464, 1890, 3040, "Input"],
+Cell[98615, 1990, 325, 5, 30, "Output"],
+Cell[98943, 1997, 273, 4, 30, "Output"]
 }, Open  ]],
-Cell[98577, 1993, 144, 2, 31, "Input"],
-Cell[98724, 1997, 153, 2, 31, "Input"],
-Cell[98880, 2001, 129, 2, 31, "Input"]
+Cell[99231, 2004, 204, 4, 31, "Input"],
+Cell[99438, 2010, 154, 3, 31, "Input"],
+Cell[99595, 2015, 130, 3, 31, "Input"]
 }, Open  ]]
 }
 ]
