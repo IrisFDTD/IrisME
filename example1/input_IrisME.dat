@@ -1,0 +1,6 @@
+400.001 400.001 10.0 350.0 25.0   px, py, ax, ay, h (in microns) 
+-5 5 -5 5 		   	              No,Nf,Mo,Mf (index of diffraction modes)
+2.0 4.0 2.0                       Dielectric constants: cover, inside the holes, substrate
+0.0 0.0 0.0 0.0 0.0 0.0           Dispersive medium inside the hole parameters (not necessary - leave at it is)
+800.1 2000.0 240                  wavelength_0 (microns), wavelength_f (microns), number of wavelengths
+
