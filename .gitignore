@@ -3,3 +3,9 @@ latex
 html
 examples
 documentation
+.ipynb_checkpoints/
+IrisME.html
+IrisME.zip
+T-R.png
+T-R_IrisME.dat
+T-R_IrisMEadv.dat
