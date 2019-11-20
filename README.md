@@ -26,13 +26,11 @@ IrisME is distributed in the hope that it will be useful for research or/and aca
 
 Within the ME method, Maxwells equations are solved by expanding the electromagnetic (EM) fields in the different regions of space, transmission and reflection coefficients are thus calculated by imposing appropriate boundary conditions (see Ref. [1], and references therein). The whole space is divided in three regions: (I) the cover, (II) holes and, (III) the substrate. In regions (I) and (III) the EM fields are expanded in planes waves. In region (II) in terms of TE and TM waveguide eigenmodes. However, good convergence is attained in many situations only by considering the less decaying transversal electric mode. Within this minimal model results can be worked out analytically.  
 
-The ME method (on which *IrisME* is based) was developed in context of Extraordinary optical transmission (EOT) research [1]. Roughly speaking, EOT is a family of EM resonances through subwavelength apertures, in either a flat or a corrugated metallic film. These resonances provide high transmission of light, much more that would be expected for such tiny apertures as compared to the wavelength of light [2]. EOT was discovered in 1998 [3] and since then it has been a very active research field, leading both to the discovery of new ways of enhancing the
-optical transmission and to its application to sensing, color filters, metamaterials, lenses, optical trapping, enhancement of nonlinear effects, among others [4]. 
+The ME method (on which *IrisME* is based) was developed in context of Extraordinary optical transmission (EOT) research [1]. Roughly speaking, EOT is a family of EM resonances through subwavelength apertures, in either a flat or a corrugated metallic film. These resonances provide high transmission of light, much more that would be expected for such tiny apertures as compared to the wavelength of light [2]. EOT was discovered in 1998 [3] and since then it has been a very active research field, leading both to the discovery of new ways of enhancing the optical transmission and to its application to sensing, color filters, metamaterials, lenses, optical trapping, enhancement of nonlinear effects, among others [4]. 
 
  *References:*
  
-[1] F.J. Garcia-Vidal, L. Martin-Moreno, T.W. Ebbesen, L. Kuipers, [*Light passing through subwavelength apertures*](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.82.729), Rev. Mod.
-Phys. 82, 729–787 (2010).
+[1] F.J. Garcia-Vidal, L. Martin-Moreno, T.W. Ebbesen, L. Kuipers, [*Light passing through subwavelength apertures*](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.82.729), Rev. Mod. Phys. 82, 729–787 (2010).
 
 [2] H. A. Bethe, [*Theory of difraction by small holes*](https://journals.aps.org/pr/abstract/10.1103/PhysRev.66.163), Phys. Rev. 66, 163–182 (1944).
 
@@ -54,7 +52,7 @@ Two different implementations of the ME method are made available:
 
 1. **IrisME** is a Wolfram Mathematica (C) script for the calculation of scattering coefficients from arrays of rectangular holes in metals. The metal is approximated as a Perfect Electric Conductor, which is a good approximation in the THz regime for geometrical features much larger than the skin depth. A brief description of the method can be found in the Appendix of Ref. [1]. The formalism is based on the amplitudes of the electric field at the openings (see Ref. [2], for further details). This version has been checked to work from Mahtematica 8.0 version.
 
-2. **IrisMEadv** is a program written in Fortran with extended capabilities: additional EM modes inside the holes, realistic optical properties of the metals under the Suface Impedance Boundary Conditions (SIBC), multiple scattering formalism (see Ref. [2], for further details),... If you are interested in these add-ons contact to Sergio G Rodrigo <sergut@unizar.es> & Luis Martin-Moreno <lmm@unizar.es>. While Windows and Linux executable versions of the program are provided (IrisMEadv64_Windows & IrisMEadv64_Linux), you can build your by your own. The code is shared at ./IrisMEadv_code. It is written in a "mix" of old and new versions of Fortran language. See the README file you can find at the same directory, for additional details. 
+2. **IrisMEadv** is a program written in Fortran with extended capabilities: additional EM modes inside the holes, realistic optical properties of the metals under the Suface Impedance Boundary Conditions (SIBC), multiple scattering formalism (see Ref. [2], for further details),... If you are interested in these add-ons contact to Sergio G Rodrigo <sergut@unizar.es> & Luis Martin-Moreno <lmm@unizar.es>. While Windows and Linux executable versions of the program are provided (IrisMEadv64_Windows & IrisMEadv64_Linux), you can build it by your own. The code is shared at ./IrisMEadv_code. It is written in a "mix" of old and new versions of Fortran language. See the README file at same directory, for additional details. 
 
 [1] S.G. Rodrigo, [*Terahertz gas sensor based on absorption-induced transparency*](https://epjam.edp-open.org/articles/epjam/full_html/2016/01/epjam160014/epjam160014.html), EPJ Applied Metamaterials 3, 11 (2016).
 
@@ -68,4 +66,3 @@ Several examples are provided to test the IrisME software:
 > **Example 2:** *Localized Extraordinary Optical Transmission*
 
 > **Example 3:** *Absoption Induced Transparency*
-
