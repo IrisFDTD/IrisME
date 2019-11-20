@@ -1,9 +1,9 @@
-500.001d0  500.001d0  250.d0  250.d0  200.0d0  Lx, Ly, ay, ax, h
-1.0d0   0.d0   0.d-9 1.0d0 1.0d0             substrate, theta, fi, cover, inside the holes
-450.1  1.0   350                             wavelength_0 (nm), step wavelength (nm), number of wavelengths
+400.001d0  400.001d0  350.d0  10.d0  25.0d0  Lx, Ly, ay, ax, h
+2.0d0   0.d0   0.d-9 2.0d0 4.0d0             substrate, theta, fi, cover, inside the holes
+800.1  5.0   240                             wavelength_0 (microns), step wavelength (microns), number of wavelengths
 5 5  1  0                                    n1x, n1y, n2x, n2y (0,1,1,0) (index of diffraction modes) --> Minimal model (n1x,n1y->I y III ; n2x,n2y->II)
 300.0d0                                      cutoff              (not necessary - leave at it is)
-0                                            SIBC=1; PEC=0       (not necessary - leave at it is)
+0                                            SIBC=1; PEC=0   (not necessary - leave at it is)    
 0                                            loop=1; 0=otherwise (not necessary - leave at it is)
 1,0,1                                        sim,deltal,nosim    (not necessary - leave at it is)
 

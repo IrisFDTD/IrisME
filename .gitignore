@@ -1,3 +1,4 @@
+.gitignore
 licence
 latex
 html
@@ -9,3 +10,11 @@ IrisME.zip
 T-R.png
 T-R_IrisME.dat
 T-R_IrisMEadv.dat
+HA_geometry.pdf
+IrisMEadv_code.zip
+example1/chap_I_aux.opj
+example1/chapter_I.tex
+example1/chapter_II.tex
+*.py
+example1/example_offnormal/
+example1/example_steps/

@@ -1,5 +1,8 @@
-80.0 150.0 50.0 120.9 1.0e3                    Lx, Ly, ax, ay, h (in microns) 
--2 2 -2 2                                      No,Nf,Mo,Mf (index of diffraction modes)
-2.06 0.0 1.0                                   Dielectric constants: cover, inside the holes  (a 0 value indicates the presence of moleculess), substrate
-1.0 3.502085352267064e-6 5.12416903629 0.0004  AIT parameters for HCN *: \epsilon_r,\Delta_Epsilon,\Omega (meV),\Gamma (meV)
-241.73 242.32 600                              wavelength_0 (microns), wavelength_f (microns), number of wavelengths
+400.001 400.001 10.0 350.0 25.0   Lx, Ly, ax, ay, h (in microns) 
+-5 5 -5 5                         No,Nf,Mo,Mf (index of diffraction modes)
+2.0 4.0 2.0                       Dielectric constants: cover, inside the holes, substrate
+0.0 0.0 0.0 0.0                   Dispersive medium inside the hole parameters (not necessary - leave at it is)
+800.1 2000.0 240                  wavelength_0 (microns), wavelength_f (microns), number of wavelengths
+
+
+

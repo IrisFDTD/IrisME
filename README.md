@@ -31,19 +31,19 @@ optical transmission and to its application to sensing, color filters, metamater
 
  *References:*
  
-[1] F.J. Garcia-Vidal, L. Martin-Moreno, T.W. Ebbesen, L. Kuipers, *Light passing through subwavelength apertures*, Rev. Mod.
+[1] F.J. Garcia-Vidal, L. Martin-Moreno, T.W. Ebbesen, L. Kuipers, [*Light passing through subwavelength apertures*](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.82.729), Rev. Mod.
 Phys. 82, 729–787 (2010).
 
-[2] H. A. Bethe, *Theory of difraction by small holes*, Phys. Rev. 66, 163–182 (1944).
+[2] H. A. Bethe, [*Theory of difraction by small holes*](https://journals.aps.org/pr/abstract/10.1103/PhysRev.66.163), Phys. Rev. 66, 163–182 (1944).
 
-[3] T. W. Ebbesen, H. L. Lezec, H. F. Ghaemi, T. Thio, and P. A. Wolff, *Extraordinary optical transmission through subwavelength
-hole arrays*, Nature 391, 667–669 (1998).
+[3] T. W. Ebbesen, H. L. Lezec, H. F. Ghaemi, T. Thio, and P. A. Wolff, [*Extraordinary optical transmission through subwavelength
+hole arrays*](https://www.nature.com/articles/35570), Nature 391, 667–669 (1998).
 
-[4] S.G. Rodrigo, F. de León-Pérez, and L. Martín-Moreno, *Extraordinary Optical Transmission: fundamentals and applications*, Proceedings of the IEEE 104, 2288 (2016). 
+[4] S.G. Rodrigo, F. de León-Pérez, and L. Martín-Moreno, [*Extraordinary Optical Transmission: fundamentals and applications*](https://ieeexplore.ieee.org/document/7592449), Proceedings of the IEEE 104, 2288 (2016). 
 
 ***
 
-*IrisME (the programs)* 
+*IrisME (the programs)*
 --------------------------------
 
 **Getting and installing *IrisME***
@@ -54,14 +54,18 @@ Two different implementations of the ME method are made available:
 
 1. **IrisME** is a Wolfram Mathematica (C) script for the calculation of scattering coefficients from arrays of rectangular holes in metals. The metal is approximated as a Perfect Electric Conductor, which is a good approximation in the THz regime for geometrical features much larger than the skin depth. A brief description of the method can be found in the Appendix of Ref. [1]. The formalism is based on the amplitudes of the electric field at the openings (see Ref. [2], for further details). This version has been checked to work from Mahtematica 8.0 version.
 
-2. **IrisMEadv** is a program written in Fortran with extended capabilities: additional EM modes inside the holes, realistic optical properties of the metals under the Suface Impedance Boundary Conditions (SIBC), multiple scattering formalism (see Ref. [2], for further details),... If you are interested in these add-ons contact to Sergio G Rodrigo <sergut@unizar.es> & Luis Martin-Moreno <lmm@unizar.es>. IrisMEadv64_Windows and IrisMEadv64_Linux are versions for Windows and Linux, respectively.
+2. **IrisMEadv** is a program written in Fortran with extended capabilities: additional EM modes inside the holes, realistic optical properties of the metals under the Suface Impedance Boundary Conditions (SIBC), multiple scattering formalism (see Ref. [2], for further details),... If you are interested in these add-ons contact to Sergio G Rodrigo <sergut@unizar.es> & Luis Martin-Moreno <lmm@unizar.es>. While Windows and Linux executable versions of the program are provided (IrisMEadv64_Windows & IrisMEadv64_Linux), you can build your by your own. The code is shared at ./IrisMEadv_code. It is written in a "mix" of old and new versions of Fortran language. See the README file you can find at the same directory, for additional details. 
 
-[1] S.G. Rodrigo, *Terahertz gas sensor based on absorption-induced transparency*, EPJ Applied Metamaterials 3, 11 (2016).
+[1] S.G. Rodrigo, [*Terahertz gas sensor based on absorption-induced transparency*](https://epjam.edp-open.org/articles/epjam/full_html/2016/01/epjam160014/epjam160014.html), EPJ Applied Metamaterials 3, 11 (2016).
 
-[2] L. Martín-Moreno, F.J. García-Vidal, *Minimal model for optical transmission through holey metal films*, J. Phys.: Condens. Matter 20, 304214 (2008)
+[2] L. Martín-Moreno, F.J. García-Vidal, [*Minimal model for optical transmission through holey metal films*](https://iopscience.iop.org/article/10.1088/0953-8984/20/30/304214/meta), J. Phys.: Condens. Matter 20, 304214 (2008)
 
 
-Several examples are provided to test the IrisME software. See:
+Several examples are provided to test the IrisME software:
 
-+ **Example 1**: *Localized Extraordinary OpticalTransmission*
-+ **Example 2**: *Absoption Induced Transparency*
+> **Example 1:** *Extraordinary Optical Transmission*
+
+> **Example 2:** *Localized Extraordinary Optical Transmission*
+
+> **Example 3:** *Absoption Induced Transparency*
+
