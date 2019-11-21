@@ -9,17 +9,21 @@ Copyright (C) 2019 Sergio G Rodrigo <sergut@unizar.es> & Luis Martin-Moreno <lmm
 
 > **Example 1: Extraordinary Optical Transmission**
 
+<img style="float: right;" width="250" src="../EOT.png">
+
 This example is extracted from Ref. [1]. The results of transmission spectrum calculated can be compared with one of the cases in **Figure 1.12** (note that only the zeroth-order is plotted in this figure). This figure illustrates the phenomenon of Extraordinary Optical Tranmission (EOT), a family of electromagnetic resonances through subwavelength apertures, in either a flat or a corrugated metallic film. These resonances provide high transmission of light, much more that would be expected for such tiny apertures as compared to the wavelength of light [2]. EOT was discovered in 1998 [3] and since then, it has been a very active research field [4], leading both to the discovery of new ways of enhancing the optical transmission and to its application to sensing, color filters, metamaterials, lenses, optical trapping, enhancement of nonlinear effects, among others [5]. 
 
-**Description:**
-This example shows you how to obtain a transmission spectrum through an array of square holes ($L_x=L_y=500$nm, $a_x=a_y=250$nm and $h=200$nm) drilled on a free-standing film. The metal film is approximated as a perfect electric conductor.  The range of energies represented are in the visible range. Note however that these results are only qualitatively correct in the optical regime.  Light iluminates the structure at normal incidence, being the electric field polarized along the x direction.
 
-![See HA_geometry.png](../HA_geometry.png)
+**Description:**
+<img style="float: right;" width="400" src="../HA_geometry.png">
+This example shows you how to obtain a transmission spectrum through an array of square holes ($L_x=L_y=500$nm, $a_x=a_y=250$nm and $h=200$nm) drilled on a free-standing film. The metal film is approximated as a perfect electric conductor.  The range of energies represented are in the visible range. Note however that these results are only qualitatively correct in the optical regime.  Light iluminates the structure at normal incidence, being the electric field polarized along the x direction. 
+
 
 **Steps:**
 1. Run IrisME.nb, included in this version, at the same directory this script in launched. The file input_IrisME.dat contains the geometrical and rest of parameters for IrisME.nb. The output file T-R_IrisME.dat has 3 data columns: wavelengths (nm), transmission and reflection. Mathematica has to be installed (from 8.0 version). If not, you will still use IrisMEadv. 
 
 2. Run the iPython script. The script calls the IrisMEAdv 64-bits executable for Windows/Linux, included in this release.  The file Input_IrisMEadv.dat contais the geometrical and rest of parameters for IrisMEadv. The output file is T-R_IrisMEadv.dat, which contains 3 data columns: wavelengths (nm), transmission and reflection. The Python script finally plots all the outputs in a figure. Note that you can alternatively run IrsMEAdv programs in from the console.
+
    
 *References:*
  

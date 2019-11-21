@@ -1,6 +1,6 @@
 *IrisME* 
 ============
-*IrisME* is a fast and accurate software for calculating scattering coefficients from arrays of rectangular holes perforating a metallic film. IrisME is based on the Modal Expansion (ME) of the electromagnetic fields (see below). 
+*IrisME* is a fast and accurate software for calculating scattering coefficients from arrays of rectangular holes perforating a metallic film. *IrisME* is based on the Modal Expansion (ME) of the electromagnetic fields (see below). <img style="float: right;" width="400" src="./HA_geometry.png">
 
 *IrisME* is licensed under the AGPL and it is free to use.  However, if you are using, or plan to use it, specially if it is for research or academic purposes, please send an email with your name, institution and a brief description of your interest for this program. If you use *IrisME* in a work that leads to a scientific or academic publication, we would appreciate it if you would kindly cite *IrisME* in your manuscript as:
 
@@ -15,9 +15,9 @@ Commercial applications may also acquire a commercial license. Please contact <s
 
 Copyright (C) 2019 Sergio G Rodrigo <sergut@unizar.es> & Luis Martin-Moreno <lmm@unizar.es>
 
-IrisME is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License,or (at your option) any later version.
+*IrisME* is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License,or (at your option) any later version.
   
-IrisME is distributed in the hope that it will be useful for research or/and academic purpouses, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with IrisME. If not,see <http://www.gnu.org/licenses/>.
+*IrisME* is distributed in the hope that it will be useful for research or/and academic purpouses, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. You should have received a copy of the GNU Affero General Public License along with *IrisME*. If not,see <http://www.gnu.org/licenses/>.
 
 ***
 
@@ -59,7 +59,7 @@ Two different implementations of the ME method are made available:
 [2] L. Martín-Moreno, F.J. García-Vidal, [*Minimal model for optical transmission through holey metal films*](https://iopscience.iop.org/article/10.1088/0953-8984/20/30/304214/meta), J. Phys.: Condens. Matter 20, 304214 (2008)
 
 
-Several examples are provided to test the IrisME software:
+Several examples are provided to test the *IrisME* software:
 
 > **Example 1:** *Extraordinary Optical Transmission*
 
