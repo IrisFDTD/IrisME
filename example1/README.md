@@ -27,12 +27,11 @@ This example shows you how to obtain a transmission spectrum through an array of
    
 *References:*
  
-[1]  Sergio G. Rodrigo, *[Optical Properties of Nanostructured Metallic Systems](https://www.springer.com/gp/book/9783642230844)*, Springer-Verlag, Berlin, (2012).
+[1]  Sergio G. Rodrigo, [*Optical Properties of Nanostructured Metallic Systems: Studied with the Finite-Difference Time-Domain Method*](https://www.springer.com/gp/book/9783642230844), Springer-Verlag, Berlin, (2012).
 
 [2] H. A. Bethe, [*Theory of difraction by small holes*](https://journals.aps.org/pr/abstract/10.1103/PhysRev.66.163), Phys. Rev. 66, 163–182 (1944).
 
-[3] T. W. Ebbesen, H. L. Lezec, H. F. Ghaemi, T. Thio, and P. A. Wolff, [*Extraordinary optical transmission through subwavelength
-hole arrays*](https://www.nature.com/articles/35570), Nature 391, 667–669 (1998).
+[3] T. W. Ebbesen, H. L. Lezec, H. F. Ghaemi, T. Thio, and P. A. Wolff, [*Extraordinary optical transmission through subwavelength hole arrays*](https://www.nature.com/articles/35570), Nature 391, 667–669 (1998).
 
 [4] F.J. Garcia-Vidal, L. Martin-Moreno, T.W. Ebbesen, L. Kuipers, [*Light passing through subwavelength apertures*](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.82.729), Rev. Mod. Phys. 82, 729–787 (2010).
 

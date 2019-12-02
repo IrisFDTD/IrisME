@@ -14,7 +14,7 @@ This example is extracted from Ref. [1]. The transmission calculated can be comp
 **Description:**
 This example shows you how to obtain transmission and reflection of terahertz waves through a given hole array (perforating a Perfect Electric Conductor metal screen). The period chosen is $L_x=L_y=400 \mu$m, and the rectangles are defined by $a_x = 10 \mu$m and  $a_y = 350 \mu$m sides.  The PEC screen is $h = 25 \mu$m and the holes are filled with a dielectric, $\epsilon_{II} = 4$. The cover and substrate dielectric constants are the same ($\epsilon_{I}= \epsilon_{III}= 2$).  Light iluminates the structure at normal incidence, being the electric field polarized along the x direction.
 
-<img style="float: left;" width="400" src="../HA_geometry.png">
+<img style="float: right;" width="350" src="../HA_geometry.png">
 
 **Steps:**
 1. Run IrisME.nb, included in this version, at the same directory this script in launched. The file input_IrisME.dat contains the geometrical and rest of parameters for IrisME.nb. The output file T-R_IrisME.dat has 3 data columns: wavelengths ( $\mu$m), transmission and reflection. Mathematica has to be installed (from 8.0 version). If not, you will still use IrisMEadv. 
